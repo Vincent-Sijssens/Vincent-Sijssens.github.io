@@ -2196,7 +2196,7 @@ input, select, textarea {
 		/* Wrappers */
 
 			.wrapper {
-				padding: 5em 0 5em 0;
+				padding: 2em 0 2em 0;
 				text-align: center;
 			}
 
@@ -2208,7 +2208,7 @@ input, select, textarea {
 		/* Articles */
 
 			#top {
-				padding: 4em 0;
+				padding: 2em 0;
 			}
 
 				#top .image {
