@@ -2172,11 +2172,6 @@ input, select, textarea {
 		font-size: 0.9em;
 	}
 
-/* Case study */
-.case-study {
-  color: #00e9ca
-}
-
 /* Copyright */
 
 	#copyright {
@@ -2517,3 +2512,8 @@ input, select, textarea {
 					}
 
 	}
+
+/* Case study */
+.case-study {
+  color: #00e9ca
+}
