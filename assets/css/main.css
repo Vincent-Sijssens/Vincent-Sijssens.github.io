@@ -2252,6 +2252,16 @@ input, select, textarea {
 					margin: 0;
 				}
 
+        #reverb {
+          padding: 2em 0;
+        }
+  
+          #reverb .image {
+            width: 24em;
+            height: 24em;
+            margin: 0;
+          }
+
 	}
 
 /* Medium */
@@ -2266,6 +2276,16 @@ input, select, textarea {
 			}
 
 				#top .image {
+					margin: 0 auto 2em auto;
+				}
+
+
+			#reverb {
+				text-align: center;
+				padding: 2em 0;
+			}
+
+				#reverb .image {
 					margin: 0 auto 2em auto;
 				}
 
@@ -2453,6 +2473,20 @@ input, select, textarea {
 				#top p {
 					font-size: 1em;
 				}
+
+        #reverb {
+          padding: 2em 0;
+        }
+  
+          #reverb .image {
+            width: 15em;
+            height: 15em;
+            margin-bottom: 0;
+          }
+  
+          #reverb p {
+            font-size: 1em;
+          }
 
 			#contact footer {
 				margin: 0;
