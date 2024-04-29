@@ -2014,8 +2014,8 @@ input, select, textarea {
 
 		.wrapper.style4 {
 			background-color: #282828;
-			color: #999;
-			text-shadow: -1px -1px 0px #181818;
+			/* color: #999; */
+			/* text-shadow: -1px -1px 0px #181818; */
 		}
 
 			.wrapper.style4 h1,
