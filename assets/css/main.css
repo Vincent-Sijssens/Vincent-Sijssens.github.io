@@ -2109,11 +2109,6 @@ input, select, textarea {
 					border-top: solid 0.6em #282828;
 				}
 
-/* Case study */
-  .case-study {
-    color: #00e9ca
-  }
-
 /* Articles */
 
 	body > article {
@@ -2141,7 +2136,7 @@ input, select, textarea {
 	  	}
 
 	  		#reverb p a {
-	  			color: inherit;
+	  			color: #00e9ca;
 	  		}
 
       #top {
