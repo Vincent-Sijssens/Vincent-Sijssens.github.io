@@ -2005,17 +2005,21 @@ input, select, textarea {
 
 /* Wrappers */
 
-	.wrapper {
-		background-image: url("images/bg.png");
-		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
-		padding: 1em 0;
-		text-align: left;
-	}
+.wrapper {
+  background-image: url("images/bg.png");
+  box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+  padding: 1em 0;
+  text-align: left;
+  height: 100vh; /* Set height to 100% of viewport height */
+  display: flex; /* Use flexbox to center content vertically */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
 
-		.wrapper.style1 {
-			background-image: none;
-			background-color: #fff;
-		}
+.wrapper.style1 {
+  background-image: none;
+  background-color: #fff;
+}
 
 		.wrapper.style2 {
 			background-color: #282828;
@@ -2157,30 +2161,49 @@ input, select, textarea {
       #projects p a {
         color: #00e9ca;
       }
+/* Reverb */
+/* Reverb */
+#reverb {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-	  #reverb {
-	  	padding: 2em 0 2em 0;
-	  	text-align: left;
-	  }
+#reverb .container {
+  width: 80%; /* Adjust as needed */
+}
 
-	  	#reverb .image {
-	  		width: 20em;
-	  		height: 20em;
-	  		margin: 0;
-	  	}
+#reverb .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 
-	  	#reverb h1 {
-	  		margin-top: 0.0em;
-	  	}
+#reverb h2 {
+  margin-top: 0;
+  text-align: left;
+}
 
-	  	#reverb p {
-	  		font-size: 1.0em;
-	  		line-height: 1.35em;
-	  	}
+#reverb .content {
+  text-align: left;
+}
 
-	  		#reverb p a {
-	  			color: #00e9ca;
-	  		}
+#reverb .image-container {
+  width: 65%; /* Adjust as needed */
+}
+
+#reverb .image {
+  border-radius: 1.2%;
+  max-width: 100%;
+  width: 100%;
+  align-self: flex-end; /* Align image to the right */
+}
 
       #top {
         padding: 2em 0 2em 0;
@@ -2276,7 +2299,7 @@ input, select, textarea {
 
 			.wrapper {
 				padding: 3em 0 3em 0;
-				text-align: left;
+				text-align: right;
 			}
 
 				.wrapper.style4 .row-special {
@@ -2296,7 +2319,7 @@ input, select, textarea {
 					margin: 0;
 				}
 
-        #reverb {
+        /* #reverb {
           padding: 5em 0;
         }
   
@@ -2304,7 +2327,7 @@ input, select, textarea {
             width: 24em;
             height: auto;
             margin: 0;
-          }
+          } */
 
 	}
 
@@ -2322,16 +2345,19 @@ input, select, textarea {
 				#top .image {
 					margin: 0 auto 3em auto;
 				}
+        
+        #reverb .container {
+          padding: 5em 1em; /* Adjust padding for smaller screens */
+        }
 
-
-			#reverb {
+			/* #reverb {
 				text-align: center;
 				padding: 5em 0;
 			}
 
 				#reverb .image {
 					margin: 0 auto 3em auto;
-				}
+				} */
 
 	}
 
@@ -2523,11 +2549,11 @@ input, select, textarea {
           padding: 2em 0;
         }
   
-          #reverb .image {
-            width: 15em;
-            height: 15em;
-            margin-bottom: 0;
-          }
+  #reverb .image {
+    width: auto; /* Set width to auto to maintain original aspect ratio */
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    height: auto; /* Allow height to adjust proportionally */
+  }
   
           #reverb p {
             font-size: 1em;
