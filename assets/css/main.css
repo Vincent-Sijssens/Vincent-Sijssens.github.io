@@ -2010,7 +2010,7 @@ input, select, textarea {
   box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
   padding: 1em 0;
   text-align: left;
-  height: 100vh; /* Set height to 100% of viewport height */
+  min-height: 100vh; /* Set height to 100% of viewport height */
   display: flex; /* Use flexbox to center content vertically */
   justify-content: center; /* Center content horizontally */
   align-items: center; /* Center content vertically */
