@@ -1621,16 +1621,15 @@ input, select, textarea {
 	}
 
 /* Image */
-/* Regular styling for larger screen sizes */
 .responsive-image {
-  max-width: 100%; /* Ensure image doesn't exceed the container's width */
-  height: auto; /* Maintain aspect ratio */
+  max-width: 100%;
+  height: auto;
 }
 
 /* Media query for smaller screen sizes */
 @media (max-width: 768px) {
   .responsive-image {
-      width: 100%; /* Make the image take up 100% of the container's width */
+      width: 100%;
   }
 }
 
@@ -1927,7 +1926,6 @@ input, select, textarea {
 
 	.box {
 		background: #fff;
-		/* box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1); */
 		text-align: center;
 		padding: 3em;
 	}
@@ -2010,10 +2008,10 @@ input, select, textarea {
   box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
   padding: 1em 0;
   text-align: left;
-  min-height: 100vh; /* Set height to 100% of viewport height */
-  display: flex; /* Use flexbox to center content vertically */
-  justify-content: center; /* Center content horizontally */
-  align-items: center; /* Center content vertically */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapper.style1 {
@@ -2037,8 +2035,6 @@ input, select, textarea {
 
 		.wrapper.style4 {
 			background-color: #282828;
-			/* color: #999; */
-			/* text-shadow: -1px -1px 0px #181818; */
 		}
 
 			.wrapper.style4 h1,
@@ -2162,7 +2158,7 @@ input, select, textarea {
         color: #00e9ca;
       }
 /* Reverb */
-/* Reverb */
+
 #reverb {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -2172,10 +2168,6 @@ input, select, textarea {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-#reverb .container {
-  width: 80%; /* Adjust as needed */
 }
 
 #reverb .row {
@@ -2195,14 +2187,14 @@ input, select, textarea {
 }
 
 #reverb .image-container {
-  width: 65%; /* Adjust as needed */
+  width: 100%;
 }
 
 #reverb .image {
   border-radius: 1.2%;
   max-width: 100%;
   width: 100%;
-  align-self: flex-end; /* Align image to the right */
+  align-self: flex-end;
 }
 
       #top {
@@ -2299,7 +2291,7 @@ input, select, textarea {
 
 			.wrapper {
 				padding: 3em 0 3em 0;
-				text-align: right;
+				text-align: left;
 			}
 
 				.wrapper.style4 .row-special {
@@ -2318,17 +2310,6 @@ input, select, textarea {
 					height: 24em;
 					margin: 0;
 				}
-
-        /* #reverb {
-          padding: 5em 0;
-        }
-  
-          #reverb .image {
-            width: 24em;
-            height: auto;
-            margin: 0;
-          } */
-
 	}
 
 /* Medium */
@@ -2347,18 +2328,13 @@ input, select, textarea {
 				}
         
         #reverb .container {
-          padding: 5em 1em; /* Adjust padding for smaller screens */
+          padding: 5em 1em;
         }
 
-			/* #reverb {
-				text-align: center;
-				padding: 5em 0;
-			}
-
-				#reverb .image {
-					margin: 0 auto 3em auto;
-				} */
-
+        #reverb h2 {
+          margin-top: 0;
+          text-align: center;
+        }
 	}
 
 /* Small */
@@ -2406,6 +2382,11 @@ input, select, textarea {
 			hr {
 				margin: 1.5em 0 2em 0;
 			}
+
+      #reverb h2 {
+        margin-top: 0;
+        text-align: center;
+      }
 
 		/* Section/Article */
 
@@ -2550,9 +2531,9 @@ input, select, textarea {
         }
   
   #reverb .image {
-    width: auto; /* Set width to auto to maintain original aspect ratio */
-    max-width: 100%; /* Ensure image doesn't exceed container width */
-    height: auto; /* Allow height to adjust proportionally */
+    width: auto;
+    max-width: 100%;
+    height: auto;
   }
   
           #reverb p {
